@@ -4,6 +4,8 @@
  */
 package demo;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Hawin
@@ -15,6 +17,11 @@ public class Demo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap a");
+        int a = Integer.parseInt(sc.nextLine());
+        System.out.println(a);
+        
     }
     
 }
